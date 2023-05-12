@@ -1,15 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
 
+  <head>
+    <meta charset="UTF-8" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/project-Itside2.0/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/project-Itside2.0/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/project-Itside2.0/favicon-16x16.png">
+    <link rel="manifest" href="/project-Itside2.0/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    
+    <script type="module" crossorigin src="/project-Itside2.0/assets/index-32a58d3f.js"></script>
+    <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/styles-fac82e35.js">
+    <link rel="stylesheet" href="/project-Itside2.0/assets/styles-8adf2d63.css">
+  </head>
+  <body>
+    <div class="authorization__bacdrop is-hidden" data-modal="">
+  <!-- modal -->
+  <div class="blur-component"></div>
+  <div class="authorization__modal authorization__modal__dark">
+    <!-- close btn -->
+    <button class="authorization__button__close" data-modal-close="">
+      <svg class="authorization__icon__close authorization__icon__close__dark" aria-label="close modal window">
+        <use href="../img/sprite.svg#x-close"></use>
+      </svg>
+    </button>
+    <!-- form -->
+    <form class="authorization__form" id="sign-up">
+      <!-- inputs -->
+      <div class="authorization__field">
+        <input
+          type="text"
+          name="name"
+          class="authorization__input authorization__input__dark"
+          id="user_name"
+          required=""
+          placeholder="&#32;"
+          autocomplete="off"
+        />
+        <label class="authorization__label" for="user_name">name</label>
+      </div>
+
+      <div class="authorization__field">
+        <input
+          type="email"
+          name="email"
+          class="authorization__input authorization__input__dark"
+          id="user_email_up"
+          required=""
+          placeholder="&#32;"
+        />
+        <label class="authorization__label" for="user_email_up">email</label>
+        <svg class="authorization__icon authorization__icon__dark">
+          <use href="../img/sprite.svg#email"></use>
+        </svg>
+      </div>
+
+      <div class="authorization__field">
+        <input
+          type="password"
+          name="password"
+          class="authorization__input authorization__input__dark"
+          id="user_password_up"
+          required=""
+          placeholder="&#32;"
+          pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+          title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+        />
+        <label class="authorization__label" for="user_password_up"
+          >password
+        </label>
+        <svg class="authorization__icon authorization__icon__dark">
+          <use href="../img/sprite.svg#lock"></use>
+        </svg>
+      </div>
+      <!-- btn submit -->
+      <button type="submit" class="authorization__btn__submit authorization__btn__submit__dark">Sign up</button>
+    </form>
+    
+<form class="authorization__form display-form" id="sign-in">
+  <!-- inputs -->
+
+  <div class="authorization__field">
+    <input
+      type="email"
+      name="email"
+      class="authorization__input authorization__input__dark"
+      id="user_email_in"
+      required=""
+      placeholder="&#32;"
+    />
+    <label class="authorization__label" for="user_email_in">email</label>
+    <svg class="authorization__icon authorization__icon__dark">
+      <use href="../img/sprite.svg#email"></use>
+    </svg>
+  </div>
+
+  <div class="authorization__field">
+    <input
+      type="password"
+      name="password"
+      class="authorization__input authorization__input__dark"
+      id="user_password_in"
+      required=""
+      placeholder="&#32;"
+      pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+      title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+    />
+    <label class="authorization__label" for="user_password_in"
+      >password
+    </label>
+    <svg class="authorization__icon authorization__icon__dark ">
+      <use href="../img/sprite.svg#lock"></use>
+    </svg>
+  </div>
+  <!-- btn submit -->
+  <button type="submit" class="authorization__btn__submit authorization__btn__submit__dark">Sign in</button>
+</form>
+    <div class="authorization__link__block">
+      <button
+        type="button"
+        class="authorization__link active-link"
+        data-action="sign-up"
+      >
+        sign up
+      </button>
+      <button
+        type="button"
+        class="authorization__link desactive-link"
+        data-action="sign-in"
+      >
+        sign in
+      </button>
+    </div>
+  </div>
+</div>
+    <header class="header">
+  <div class="container header-content">
+  <div class="logo">
+    <a href="./index.html" class="logo-bookshelf">
+      <svg
+        class="header-logo"
+        width="24"
+        height="24"
+        aria-label="logo bookshelf"
+      >
+        <use href=""></use>
+      </svg>
+      <svg
+      class="header-logo-name"
+      width="77"
+      height="14"
+      aria-label="logo name"
+    >
+      <use href=""></use>
+    </svg>
+    </a>
+  </div>
+  <div class="header-nav">
+    <a href="../index.html" class="header-home-btn">Home</a>
+    <a href="../shop.html" class="header-shopping-btn"> Shopping list
+      <svg class="header-shopping-logo" width="20" height="20" aria-label="shopping logo" >
+        <use href=""></use>
+      </svg>
+    </a>
+  </div>
+  <label class="switch">
+    <input class="switch__input" type="checkbox" role="switch">
+    <svg class="switch__icon switch__icon--light" viewBox="0 0 12 12" width="12px" height="12px" aria-hidden="true">
+        <g fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round">
+            <circle cx="6" cy="6" r="2"></circle>
+            <g stroke-dasharray="1.5 1.5">
+                <polyline points="6 10,6 11.5" transform="rotate(0,6,6)"></polyline>
+                <polyline points="6 10,6 11.5" transform="rotate(45,6,6)"></polyline>
+                <polyline points="6 10,6 11.5" transform="rotate(90,6,6)"></polyline>
+                <polyline points="6 10,6 11.5" transform="rotate(135,6,6)"></polyline>
+                <polyline points="6 10,6 11.5" transform="rotate(180,6,6)"></polyline>
+                <polyline points="6 10,6 11.5" transform="rotate(225,6,6)"></polyline>
+                <polyline points="6 10,6 11.5" transform="rotate(270,6,6)"></polyline>
+                <polyline points="6 10,6 11.5" transform="rotate(315,6,6)"></polyline>
+            </g>
+        </g>
+    </svg>
+    <svg class="switch__icon switch__icon--dark" viewBox="0 0 12 12" width="12px" height="12px" aria-hidden="true">
+        <g fill="none" stroke="#fff" stroke-width="1" stroke-linejoin="round" transform="rotate(-45,6,6)">
+            <path d="m9,10c-2.209,0-4-1.791-4-4s1.791-4,4-4c.304,0,.598.041.883.105-.995-.992-2.367-1.605-3.883-1.605C2.962.5.5,2.962.5,6s2.462,5.5,5.5,5.5c1.516,0,2.888-.613,3.883-1.605-.285.064-.578.105-.883.105Z"></path>
+        </g>
+    </svg>
+    <span class="switch__sr">Dark Mode</span>
+</label>
+</div>
+</header>
+
+
+    <section class="home-page__flex">
+      <aside class="aside-flex">
+        <div>
+          <div class="container">
+  <ul class="categories-list categories-list-js">
+    <li class="categories-list__item active">
+      <a href="#">All categories</a>
+    </li>
+  </ul>
+</div>
+
+        </div>
+
+        <div>
+          <section class="supportUA">
+    <div class="support_wrap-title">
+      <h3 class="support_title">Support Ukraine</h3>
+      <svg class="support_gerb" width="20" height="32">
+        <!-- emblema -->
+        <use href="../img/sprite.svg#tryzub"></use>
+      </svg>
+    </div>
+    <div class="swiper">
+      <ul class="support_list-js swiper-wrapper"></ul>
+    </div>
+    <button
+      class="support_btn swiper-button-next"
+      type="button"
+      aria-label="swipe fund`s list down button"
+    >
+      <svg class="support_btn-icon" width="38" height="38">
+        <!-- strelka do dolu -->
+        <use href="../img/sprite.svg#arrow-down"> </use>
+      </svg>
+    </button>
+  </section>
+        </div>
+      </aside>
+      <div class="container">
+  <div class="books-wrapper">
+    <h2 class="categories-list__title js-category-title"></h2>
+    <!-- <section class="section-bestsellers">
+      <div class="container-besrsellers">
+        <h2 class="title-section">
+          Best Sellers <span class="titel-span">Books</span>
+        </h2>
+        <ul class="list-categories">
+          <li class="item-category">
+            <h3 class="title-category">Combined Print and E-Book Fiction</h3>
+            <ul class="list-books">
+              <li class="item-book">
+                <a class="link-book" href="#">
+                  <img class="pict-book" src="" alt="description" />
+                  <h4 class="title-book">I will find you</h4>
+                  <p class="author">Harlan Coben</p>
+                </a>
+              </li>
+            </ul>
+            <button class="btn btn-seemore">See more</button>
+          </li>
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+        </ul>
+        <button class="btn btn-seemore">See more</button>
+      </li>
+
+      <li class="item-category">
+        <h3 class="title-category">Combined Print and E-Book Fiction</h3>
+        <ul class="list-books">
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+        </ul>
+        <button class="btn btn-seemore">See more</button>
+      </li>
+
+      <li class="item-category">
+        <h3 class="title-category">Combined Print and E-Book Fiction</h3>
+        <ul class="list-books">
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+          <li class="item-book">
+            <a class="link-book" href="#">
+              <img class="pict-book" src="" alt="description">
+              <h4 class="title-book">I will find you</h4>
+              <p class="author">Harlan Coben</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+
+    <ul class="books-list js-books-list"></ul>
+  </div>
+</div>
+
+      <!-- BOOK LIST -->
+<div class="container"></div>
+
+    </section> -->
+
+    Loads the specified .html file
+    <footer class="footer"> <!-- footer-dark -->
+    <div class="footer-logo-svg">
+        <svg class="logo-svg">
+            <use class="logo-svg" href = "../img/sprite.svg#logo"></use>
+    </svg>
+    <a class="footer-logo" href="#">Bookshelf</a> <!-- footer-logo-dark -->
+    </div>
+    <div>
+    <ul class="footer-nav">
+        <li class="footer-navigation-elements footer-nth-child"><a class="footer-nav-description" href="#">HOME</a></li> <!-- footer-nav-description-dark -->
+        <li class="footer-navigation-elements footer-nth-child"><a class="footer-nav-description" href="#">SHOPPING LIST</a></li> <!-- footer-nav-description-dark -->
+        <li class="footer-navigation-elements"><a class="footer-nav-description" href="#">LOG OUT</a></li> <!-- footer-nav-description-dark -->
+    </ul>
+    <div class="about-our-team">
+    <button class="footer-btn ">OUR TEAM</button> <!-- footer-btn-dark -->
+    </div>
+</div>
+</footer>
+    
+  </body>
+
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/flavicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HOME</title>
   
-  <script type="module" crossorigin src="/project-Itside2.0/assets/index-32a58d3f.js"></script>
-  <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/styles-fac82e35.js">
-  <link rel="stylesheet" href="/project-Itside2.0/assets/styles-c61e02c7.css">
 </head>
 <body>
   <header class="header">
@@ -256,5 +626,6 @@
 
   
 </body>
+
 
 </html>
