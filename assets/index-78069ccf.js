@@ -24,7 +24,7 @@ Notiflix needs to be appended to the "<`+r+'>" element, but you called it before
          <h3 class="title-category">${n}</h3>
          <ul class="list-books">${Pi(i)}</ul>
         <button class="btn btn-seemore" data-category="${n}">See more</button>
-  </li>`).join("")}function Pi(t){return t.map(({author:e,book_image:n,title:i,_id:o})=>`<li class="item-book" data-id="${o}>
+  </li>`).join("")}function Pi(t){return t.map(({author:e,book_image:n,title:i,_id:o})=>`<li class="item-book" data-id="${o}">
      <img class="pict-book" src="${n}" alt="${i}">
      <h4 class="title-book">${i}</h4>
      <p class="author">${e}</p>
