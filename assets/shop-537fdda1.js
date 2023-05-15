@@ -17,9 +17,9 @@ import"./nav-menu-cf9d2e4e.js";const k=document.querySelector(".ulShoppingList")
                     <div class="autor-link-shoppingList">
                         <p class="shop-book-autor">${i}</p>
                         <ul class="links-shoppingList">
-                        <li class="shop-book-link amazon-link">     <a class="shop-a" href="${c}"><img class="amazon" src="../img/icon-book-store/amazon.png" alt="${r}" width="32 "></a></li>
-                        <li class="shop-book-link apple-store-link"><a class="shop-a" href="${d}"><img class="apple-store" src="../img/icon-book-store/apple-store.png" alt="${h} " width="16"></a></li>
-                        <li class="shop-book-link book-shop-link">  <a class="shop-a" href="${g}"><img class="book-shop" src="../img/icon-book-store/book-shop.png" alt="${u} " width="16"></a></li>
+                        <li class="shop-book-link amazon-link">     <a class="shop-a" href="${c}"><img class="amazon" src="./img/icon-book-store/amazon.png" alt="${r}" width="32 "></a></li>
+                        <li class="shop-book-link apple-store-link"><a class="shop-a" href="${d}"><img class="apple-store" src="./img/icon-book-store/apple-store.png" alt="${h} " width="16"></a></li>
+                        <li class="shop-book-link book-shop-link">  <a class="shop-a" href="${g}"><img class="book-shop" src="./img/icon-book-store/book-shop.png" alt="${u} " width="16"></a></li>
                         </ul>
                     </div> 
                     </div>
