@@ -16,9 +16,9 @@ import{e as o,p as R}from"./pagination-shop-list-79e2ea9d.js";const j="data:imag
                     <div class="autor-link-shoppingList">
                         <p class="shop-book-autor">${n}</p>
                         <ul class="links-shoppingList">                  
-                        <li class="shop-book-link amazon-link"><a class="shop-a" href="${B}"><img class="amazon" src=${j} alt="${U}"></a></li>
-                        <li class="shop-book-link apple-store-link"><a class="shop-a" href="${L}"><img class="apple-store" src=${I} alt="${C} "></a></li>
-                        <li class="shop-book-link book-shop-link"><a class="shop-a" href="${k}"><img class="book-shop" src=${w} alt="${D} "></a></li>
+                        <li class="shop-book-link amazon-link"><a class="shop-a" href="${B}"><img class="amazon" src="${j}" alt="${U}"></a></li>
+                        <li class="shop-book-link apple-store-link"><a class="shop-a" href="${L}"><img class="apple-store" src="${I}" alt="${C} "></a></li>
+                        <li class="shop-book-link book-shop-link"><a class="shop-a" href="${k}"><img class="book-shop" src="${w}" alt="${D} "></a></li>
                         </ul>
                     </div> 
                     </div>
