@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping list</title>
     
-    <script type="module" crossorigin src="/project-Itside2.0/assets/shop-76b0ef14.js"></script>
-    <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/nav-menu-00b41d6d.js">
-    <link rel="stylesheet" href="/project-Itside2.0/assets/nav-menu-d6e685c3.css">
+    <script type="module" crossorigin src="/project-Itside2.0/assets/shop-679ae50e.js"></script>
+    <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/pagination-shop-list-c4f62cf4.js">
+    <link rel="stylesheet" href="/project-Itside2.0/assets/pagination-shop-list-bf71e426.css">
   </head>
   <body>
     <header class="header">
@@ -154,13 +154,13 @@
   </button>
 </section>
 
-          <section class="section-shoppingList">
+          <!-- <section class="section-shoppingList">
   <h2 class="title-section shop-title">
     Shopping <span class="titel-span">List</span>
   </h2>
   <ul class="ulShoppingList"></ul>
 
-  <!-- <div class="pagination-shoppingList"></div> -->
+  
   <div class="emptyList">
     <p class="empty-text">
       This page is empty, add some books and <br />proceed to order.
@@ -171,7 +171,20 @@
       alt="empty"
     />
   </div>
-</section>
+</section> -->
+
+<section class="section-shoppingList">    
+  <div class="container-shoppingList">
+      <h2 class="title-section shop-title">Shopping <span class="titel-span">List</span></h2>
+      <ul class="ulShoppingList"></ul>
+      <div class="emptyList">
+          <p class="empty-text">This page is empty, add some books and <br>proceed to order.</p>
+          <img class="empty-img" src="../img/shopping-list/books-fon.png" alt="empty">
+      </div>
+      <div class="pagination-shop-list"></div>
+  </div>
+  
+  </section>
 
         </div>
         <div class="backdrop hi-backdrop" data-modal>
