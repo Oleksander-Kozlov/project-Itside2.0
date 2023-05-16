@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/project-Itside2.0/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/project-Itside2.0/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/project-Itside2.0/favicon-16x16.png" />
-    <link rel="manifest" href="/project-Itside2.0/site.webmanifest" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HOME</title>
-    
-    <script type="module" crossorigin src="/project-Itside2.0/assets/index-6f258842.js"></script>
-    <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/pagination-shop-list-f7890dc0.js">
-    <link rel="stylesheet" href="/project-Itside2.0/assets/pagination-shop-list-50fded5b.css">
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/project-Itside2.0/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/project-Itside2.0/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/project-Itside2.0/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/project-Itside2.0/site.webmanifest" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HOME</title>
+        
+      <script type="module" crossorigin src="/project-Itside2.0/assets/index-383f4613.js"></script>
+      <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/pagination-shop-list-f7890dc0.js">
+      <link rel="stylesheet" href="/project-Itside2.0/assets/pagination-shop-list-03431de2.css">
+    </head>
 
-  <body>
-    <div class="authorization__bacdrop is-hidden" data-modal="">
+    <body>
+        <div id="scrollUpButton" class="scrollup show">
+    <svg class="scrollup-svg" width="24" height="24">
+        <use href="../img/scrollup.svg#icon-scrollup"></use>
+    </svg>
+</div>
+
+<script src="./js/scroolup.js"></script>
+
+        <div class="authorization__bacdrop is-hidden" data-modal="">
   <!-- modal -->
   <div class="blur-component"></div>
   <div class="authorization__modal authorization__modal__dark">
@@ -136,7 +158,7 @@
     </div>
   </div>
 </div>
-    <header class="header">
+        <header class="header">
   <div class="container header-content">
     <!-- HEADER LOGO -->
 
@@ -251,19 +273,19 @@
 </header>
 
 
-    <main>
-      <div class="container home-page__flex">
-        <aside class="aside-flex">
-          <div>
-            <ul class="categories-list categories-list-js">
+        <main>
+            <div class="container home-page__flex">
+                <aside class="aside-flex">
+                    <div>
+                        <ul class="categories-list categories-list-js">
   <li class="categories-list__item is-active">
     <a href="#" class="link-allcategories">All categories</a>
   </li>
 </ul>
 
-          </div>
-          <div>
-            <section class="supportUA js-support">
+                    </div>
+                    <div>
+                        <section class="supportUA js-support">
   <div class="support_wrap-title">
     <h3 class="support_title">Support Ukraine</h3>
     <svg class="support_gerb" width="20" height="32">
@@ -288,10 +310,10 @@
   </button>
 </section>
 
-          </div>
-        </aside>
+                    </div>
+                </aside>
 
-        <div class="books-wrapper">
+                <div class="books-wrapper">
   <h2 class="categories-list__title js-category-title" id="books-scroll">
     Best Sellers <span class="titel-span">Books</span>
   </h2>
@@ -299,14 +321,14 @@
   <ul class="books-list js-books-list"></ul>
 </div>
 
-        <!-- BOOK LIST -->
+                <!-- BOOK LIST -->
 <!-- <div class="container"></div> -->
 
-      </div>
-    </main>
+            </div>
+        </main>
 
-    <!-- Loads the specified .html file -->
-    <footer class="footer"> <!-- footer-dark -->
+        <!-- Loads the specified .html file -->
+        <footer class="footer"> <!-- footer-dark -->
 <div class="footer-logo-svg">
 <div class="footer-logo-description">
     <svg class="logo-svg">
@@ -591,7 +613,7 @@
 <button class="footer-btn" id="our-team-button">OUR TEAM</button> <!-- footer-btn-dark -->
 </footer>
 
-    <div class="backdrop hi-backdrop" data-modal>
+        <div class="backdrop hi-backdrop" data-modal>
     <div class="modal" id="modalWindow">
 
       <button type="button" class="modal-btn" data-action="close-modal">
@@ -606,6 +628,6 @@
     </div>
   </div>
   
-    
-  </body>
+        
+    </body>
 </html>

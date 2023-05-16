@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shopping list</title>
-    
-    <script type="module" crossorigin src="/project-Itside2.0/assets/shop-822e2644.js"></script>
-    <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/pagination-shop-list-f7890dc0.js">
-    <link rel="stylesheet" href="/project-Itside2.0/assets/pagination-shop-list-50fded5b.css">
-  </head>
-  <body>
-    <header class="header">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shopping list</title>
+        
+      <script type="module" crossorigin src="/project-Itside2.0/assets/shop-822e2644.js"></script>
+      <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/pagination-shop-list-f7890dc0.js">
+      <link rel="stylesheet" href="/project-Itside2.0/assets/pagination-shop-list-03431de2.css">
+    </head>
+    <body>
+        <div id="scrollUpButton" class="scrollup show">
+    <svg class="scrollup-svg" width="24" height="24">
+        <use href="../img/scrollup.svg#icon-scrollup"></use>
+    </svg>
+</div>
+
+<script src="./js/scroolup.js"></script>
+
+        <header class="header">
   <div class="container header-content">
     <!-- HEADER LOGO -->
 
@@ -126,10 +134,10 @@
 </header>
 
 
-    <div class="container">
-      <main>
-        <div class="support-shop-container">
-          <section class="supportUA js-support">
+        <div class="container">
+            <main>
+                <div class="support-shop-container">
+                    <section class="supportUA js-support">
   <div class="support_wrap-title">
     <h3 class="support_title">Support Ukraine</h3>
     <svg class="support_gerb" width="20" height="32">
@@ -154,7 +162,7 @@
   </button>
 </section>
 
-          <!-- <section class="section-shoppingList">
+                    <!-- <section class="section-shoppingList">
   <h2 class="title-section shop-title">
     Shopping <span class="titel-span">List</span>
   </h2>
@@ -186,8 +194,8 @@
   
   </section>
 
-        </div>
-        <div class="backdrop hi-backdrop" data-modal>
+                </div>
+                <div class="backdrop hi-backdrop" data-modal>
     <div class="modal" id="modalWindow">
 
       <button type="button" class="modal-btn" data-action="close-modal">
@@ -202,8 +210,8 @@
     </div>
   </div>
   
-      </main>
-    </div>
-    
-  </body>
+            </main>
+        </div>
+        
+    </body>
 </html>
