@@ -16,9 +16,9 @@ import{e as i,p as j}from"./pagination-shop-list-ada95e95.js";const r=t=>t.map((
                     <div class="autor-link-shoppingList">
                         <p class="shop-book-autor">${n}</p>
                         <ul class="links-shoppingList">
-                        <li class="shop-book-link amazon-link"><a class="shop-a" href="${y}"><img class="amazon" src="./img/icon-book-store/amazon.png" alt="${L} "></a></li>
-                        <li class="shop-book-link apple-store-link"><a class="shop-a" href="${x}"><img class="apple-store" src="./img/icon-book-store/apple-store.png" alt="${S} "></a></li>
-                        <li class="shop-book-link book-shop-link"><a class="shop-a" href="${T}"><img class="book-shop" src="./img/icon-book-store/book-shop.png" alt="${$} "></a></li>
+                        <li class="shop-book-link amazon-link"><a class="shop-a" href="${y}"><img class="amazon" src="/img/icon-book-store/amazon.png" alt="${L} "></a></li>
+                        <li class="shop-book-link apple-store-link"><a class="shop-a" href="${x}"><img class="apple-store" src="/img/icon-book-store/apple-store.png" alt="${S} "></a></li>
+                        <li class="shop-book-link book-shop-link"><a class="shop-a" href="${T}"><img class="book-shop" src="/img/icon-book-store/book-shop.png" alt="${$} "></a></li>
                         </ul>
                     </div> 
                     </div>
