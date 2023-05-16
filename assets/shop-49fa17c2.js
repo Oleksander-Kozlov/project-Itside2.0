@@ -1,4 +1,4 @@
-import{e as i,p as C}from"./pagination-shop-list-db29d1d7.js";const r=t=>t.map(({id:e,title:s,author:n,bookImage:l,categoryName:m,description:f,buyLinks:[{name:L,url:y},{name:S,url:x},{name:$,url:T}]})=>`<li class="item-shoppingList  js-item-book" id = '${e}'>
+import{e as i,p as C}from"./pagination-shop-list-ada95e95.js";const r=t=>t.map(({id:e,title:s,author:n,bookImage:l,categoryName:m,description:f,buyLinks:[{name:L,url:y},{name:S,url:x},{name:$,url:T}]})=>`<li class="item-shoppingList  js-item-book" id = '${e}'>
                 <img class="pict-shoppingList" src="${l}" alt="img"></img>
                 <button type='button' class='delete-btn' id= '${e}'>
                     </button>
