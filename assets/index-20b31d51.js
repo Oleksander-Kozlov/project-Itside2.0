@@ -37,7 +37,7 @@ import{N as Ue,c as cn,g as un}from"./pagination-shop-list-a0c4b1ec.js";function
                 <h3 class="book-tittle">${r}</h3>
                 <p class="book-author">${o}</p>
             </a>
-        </li>`).join("")}It.addEventListener("click",Jr);function Jr(e){if(e.target.classList.contains("js-open-modal-click")){const{id:t}=e.target.closest(".js-book-card").dataset;Kr(t).then(r=>{const n=r.data,o=n.buy_links[0].url,i=n.buy_links[1].url,l=n.buy_links[4].url;console.log(o,i,l),console.log(n),Ht.exports.create(`
+        </li>`).join("")}It.addEventListener("click",Jr);function Jr(e){if(e.target.classList.contains("js-open-modal-click")){const{id:t}=e.target.closest(".js-book-card").dataset;Kr(t).then(r=>{const n=r.data,o=n.buy_links[0].url,i=n.buy_links[1].url,l=n.buy_links[4].url;Ht.exports.create(`
 	    <div class="new-modal">
         <img class="new-modal-img" src="${n.book_image}" alt="" width="287" />
         <h3 class="new-modal-book-title">${n.title}</h3>
