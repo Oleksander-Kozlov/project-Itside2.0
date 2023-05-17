@@ -53,10 +53,10 @@ import{N as Ue,c as cn,g as un}from"./pagination-shop-list-a0c4b1ec.js";function
                 /></a>
               </li>
               <li>
-                <a href="${i}" target="blank"><img src="../img/icon-book-store/apple-store.png" alt="" /></a>
+                <a href="${i}" target="blank"><img src="./img/icon-book-store/apple-store.png" alt="" /></a>
               </li>
               <li>
-                <a href="${l}" target="blank"><img src="../img/icon-book-store/book-shop.png" alt="" /></a>
+                <a href="${l}" target="blank"><img src="./img/icon-book-store/book-shop.png" alt="" /></a>
               </li>
             </ul>
             </div>
