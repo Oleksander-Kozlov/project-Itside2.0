@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Shopping list</title>
         
-      <script type="module" crossorigin src="/project-Itside2.0/assets/shop-6d6ac5b8.js"></script>
-      <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/pagination-shop-list-68e439ce.js">
+      <script type="module" crossorigin src="/project-Itside2.0/assets/shop-a1280589.js"></script>
+      <link rel="modulepreload" crossorigin href="/project-Itside2.0/assets/pagination-shop-list-901524a0.js">
       <link rel="stylesheet" href="/project-Itside2.0/assets/pagination-shop-list-e75b024f.css">
     </head>
     <body>
@@ -208,8 +208,131 @@
     </div>
   </div>
   
+                <div class="authorization__bacdrop is-hidden" data-modal="">
+  <!-- modal -->
+  <div class="blur-component"></div>
+  <div class="authorization__modal authorization__modal__dark">
+    <!-- close btn -->
+    <button class="authorization__button__close" data-modal-close="">
+      <svg class="authorization__icon__close authorization__icon__close__dark" aria-label="close modal window">
+        <use href="/project-Itside2.0/assets/sprite-bee06e58.svg#x-close"></use>
+      </svg>
+    </button>
+    <!-- form -->
+    <form class="authorization__form" id="sign-up">
+      <!-- inputs -->
+      <div class="authorization__field">
+        <input
+          type="text"
+          name="name"
+          class="authorization__input authorization__input__dark"
+          id="user_name"
+          required=""
+          placeholder="&#32;"
+          autocomplete="off"
+        />
+        <label class="authorization__label" for="user_name">name</label>
+      </div>
+
+      <div class="authorization__field">
+        <input
+          type="email"
+          name="email"
+          class="authorization__input authorization__input__dark"
+          id="user_email_up"
+          required=""
+          placeholder="&#32;"
+        />
+        <label class="authorization__label" for="user_email_up">email</label>
+        <svg class="authorization__icon authorization__icon__dark">
+          <use href="../img/sprite.svg#email"></use>
+        </svg>
+      </div>
+
+      <div class="authorization__field">
+        <input
+          type="password"
+          name="password"
+          class="authorization__input authorization__input__dark"
+          id="user_password_up"
+          required=""
+          placeholder="&#32;"
+          pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+          title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+        />
+        <label class="authorization__label" for="user_password_up"
+          >password
+        </label>
+        <svg class="authorization__icon authorization__icon__dark">
+          <use href="../img/sprite.svg#lock"></use>
+        </svg>
+      </div>
+      <!-- btn submit -->
+      <button type="submit" class="authorization__btn__submit authorization__btn__submit__dark">Sign up</button>
+    </form>
+    
+<form class="authorization__form display-form" id="sign-in">
+  <!-- inputs -->
+
+  <div class="authorization__field">
+    <input
+      type="email"
+      name="email"
+      class="authorization__input authorization__input__dark"
+      id="user_email_in"
+      required=""
+      placeholder="&#32;"
+    />
+    <label class="authorization__label" for="user_email_in">email</label>
+    <svg class="authorization__icon authorization__icon__dark">
+      <use href="../img/sprite.svg#email"></use>
+    </svg>
+  </div>
+
+  <div class="authorization__field">
+    <input
+      type="password"
+      name="password"
+      class="authorization__input authorization__input__dark"
+      id="user_password_in"
+      required=""
+      placeholder="&#32;"
+      pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+      title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+    />
+    <label class="authorization__label" for="user_password_in"
+      >password
+    </label>
+    <svg class="authorization__icon authorization__icon__dark ">
+      <use href="../img/sprite.svg#lock"></use>
+    </svg>
+  </div>
+  <!-- btn submit -->
+  <button type="submit" class="authorization__btn__submit authorization__btn__submit__dark">Sign in</button>
+</form>
+    <div class="authorization__link__block">
+      <button
+        type="button"
+        class="authorization__link active-link"
+        data-action="sign-up"
+      >
+        sign up
+      </button>
+      <button
+        type="button"
+        class="authorization__link desactive-link"
+        data-action="sign-in"
+      >
+        sign in
+      </button>
+    </div>
+  </div>
+</div>
             </main>
         </div>
+        
+        
+        
         
     </body>
 </html>
