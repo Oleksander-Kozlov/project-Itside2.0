@@ -12,6 +12,7 @@ modalCloseBtn.addEventListener('click', modalClose);
 function registerModalOpen() {
   modal.classList.remove('is-hidden');
   document.body.style.overflow = 'hidden';
+  main-menu.classList.add('is-hidden');
   modalCloseBtn.addEventListener('click', modalClose);
   backdrop.addEventListener('click', onBackdropClick);
   window.addEventListener('keydown', onEscapeKeydown);
@@ -20,6 +21,7 @@ function registerModalOpen() {
 function modalClose() {
   modal.classList.add('is-hidden');
   document.body.style.overflow = '';
+  main-menu.classList.remove('is-hidden')
   modalCloseBtn.removeEventListener('click', modalClose);
   backdrop.removeEventListener('click', onBackdropClick);
   window.removeEventListener('keydown', onEscapeKeydown);
