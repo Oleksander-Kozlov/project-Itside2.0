@@ -1,4 +1,4 @@
-import{a as j,b as x,c as C,s as l,p as v}from"./pagination-shop-list-ecaf2811.js";const r=t=>t.map(({id:s,title:e,author:o,bookImage:n,categoryName:k,description:f,buyLinks:[{name:m,url:L},{name:y,url:S},{name:$,url:T}]})=>`<li class="item-shoppingList  js-item-book js-item-book" id = '${s}'>
+import{a as j,b as x,c as C,s as l,p as v}from"./pagination-shop-list-6cdc990e.js";const r=t=>t.map(({id:s,title:e,author:o,bookImage:n,categoryName:k,description:f,buyLinks:[{name:m,url:L},{name:y,url:S},{name:$,url:T}]})=>`<li class="item-shoppingList  js-item-book js-item-book" id = '${s}'>
    <div class="book-list-container js-item-book" id = '${s}'>         
   <img class="pict-shoppingList js-item-book" src="${n}" alt="img"></img>
                 <button type='button' class='delete-btn js-item-book' id= '${s}'>
